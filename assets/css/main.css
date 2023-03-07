@@ -1102,7 +1102,7 @@ input, select, textarea {
 			display: inline-block;
 		}
 		header h1:first-child{
-			text-shadow: 0px 0px 10px black;
+			text-shadow: 0px 0px 5px black;
 		}
 		header p{
 			text-shadow: 0px 0px 5px black;
