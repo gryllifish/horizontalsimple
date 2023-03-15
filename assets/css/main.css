@@ -1140,8 +1140,3 @@ input, select, textarea {
 			font-family: "lowvetica";
 			src: url("lowvetica/Lowvetica.ttf") format("truetype");
 		  }
-
-		.logoContainer {
-		margin: 0 auto !important;
-		z-index: 1;
-}
