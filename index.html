@@ -48,5 +48,19 @@
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
+		  <!-- <script>
+			var images = ["assets/css/images/otrofondo.jpg", "assets/css/images/LOGO-FINAL.png"]
+			function getRandomInt(max) {
+			  return Math.floor(Math.random() * max);
+			}
+			function getRandomImage() {
+			  var randomIndex = getRandomInt(images.length);
+			  var randomImage = images[randomIndex];
+			  return randomImage;
+			}
+			var body = document.querySelector('body');
+			var randomImage = getRandomImage();
+			body.style.backgroundImage = 'url(' + randomImage + ')';
+		  </script> -->
 	</body>
 </html>
