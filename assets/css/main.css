@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'lowvetica', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -370,7 +370,7 @@ input, select, textarea {
 		left: 0;
 		position: fixed;
 		text-align: center;
-		top: 0;
+		top: 7%;
 		width: 100%;
 	}
 
@@ -554,8 +554,8 @@ input, select, textarea {
 
 		#header h1 {
 			font-size: 4.35em;
-			font-weight: 900;
-			letter-spacing: -0.035em;
+			font-weight: normal;
+			letter-spacing: 0.02em;
 			line-height: 1em;
 		}
 
@@ -566,7 +566,7 @@ input, select, textarea {
 		}
 
 		#header nav {
-			margin: 1.5em 0 0 0;
+			margin: 1.8em 0 0 0;
 		}
 
 			#header nav li {
@@ -1097,8 +1097,9 @@ input, select, textarea {
 		} }
 
 		.logotipo{
-			width: 2.5em;
-			margin: 0 1em;
+			width: 6em;
+			margin: 0 2em;
+
 
 		}
 		header h1{
@@ -1134,3 +1135,13 @@ input, select, textarea {
 			height: 2em;
 			transform: translateY(0%);
 		  }
+
+		  @font-face {
+			font-family: "lowvetica";
+			src: url("lowvetica/Lowvetica.ttf") format("truetype");
+		  }
+
+		.logoContainer {
+		margin: 0 auto !important;
+		z-index: 1;
+}
