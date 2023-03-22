@@ -225,10 +225,10 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #000000 url("images/otrofondo.jpg") bottom left;
+		background: #000000 url("images/testFondo.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
-		left: 0;
+		left: 0; 
 		opacity: 1;
 		position: fixed;
 		top: 0;
@@ -554,7 +554,7 @@ input, select, textarea {
 
 		#header h1 {
 			font-size: 5em;
-			font-weight: normal;
+			font-weight: 600;
 			letter-spacing: 0.02em;
 			line-height: 1em;
 		}

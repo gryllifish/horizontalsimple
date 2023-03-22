@@ -20,7 +20,7 @@
 						</container>
 						<br>
 						<h1>HORIZONTAL</h1><h1 class="arq">ARQUITECTOS</h1>
-						<!--<p>Estudio de arquitectura con base en Mendoza, Argentina.</p>-->
+						<p>ESTUDIO DE ARQUITECTURA CON BASE EN MENDOZA, ARGENTINA</p>
 						<nav>
 							<ul>
 								<!--<li><a href="#" class="icon solid fa-briefcase" title="Portfolio"><span class="label">BIMZA</span></a></li> AGREGAR LOGO BIMZA-->
@@ -32,21 +32,24 @@
 					</header>
 
 				<!-- Footer -->
-					<!--<footer id="footer">
+					<footer id="footer">
 						<ul class="copyright">
-							<img src="assets/css/images/LOGO-FINAL.png" alt="logo" class="logotipoFooter">
+							<!--<img src="assets/css/images/LOGO-FINAL.png" alt="logo" class="logotipoFooter">-->
 							<li>25 de Mayo 1510, Guaymallén. Mendoza
 							</li>
-							<li>Contacto:
-								<a href="mailto:info@horizontal.com.ar">info@horizontal.com.ar</a></li>
+							
 						</ul>
-					</footer> -->
+					</footer> 
 			</div>
 		</div>
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
+
+			// Inicializa el contador en un número aleatorio entre 1 y 3
+			document.body.style.counterReset = "my-counter " + Math.floor(Math.random() * 3 + 1);
+
 		</script>
 	</body>
 </html>
