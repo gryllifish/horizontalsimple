@@ -234,6 +234,15 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 	}
+	@keyframes bg {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(-2000px);
+		}
+	}
+	
 
 	@-moz-keyframes bg {
 		0% {
@@ -687,21 +696,21 @@ input, select, textarea {
 					width: 2.5em;
 				}
 
-				#header nav a:hover, .bimzaImg:hover {
+				#header nav a:hover {
 					font-size: 1.1em;
 				}
 
-					#header nav a:hover:before, .bimzaImg:before {
+					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
 						color: #fff;
 					}
 
-				#header nav a:active, .bimzaImg:active {
+				#header nav a:active {
 					font-size: 0.95em;
 					background: none;
 				}
 
-					#header nav a:active:before,.bimzaImg:active:before{
+					#header nav a:active:before{
 						background-color: rgba(255, 255, 255, 0.35);
 						color: #fff;
 					}
@@ -1174,4 +1183,7 @@ input, select, textarea {
 		}
 		.bimza:hover{
 			background-color: rgba(255, 255, 255, 0.175);
+					width: 4.8em !important;
+					height: 4.8em !important;
+			transform: translateY(0%) !important;
 		}
