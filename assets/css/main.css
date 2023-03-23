@@ -1026,6 +1026,7 @@ input, select, textarea {
 
 		#header nav {
 			font-size: 1em;
+			margin-bottom: 50px;
 		}
 
 			#header nav a:hover {
@@ -1036,7 +1037,7 @@ input, select, textarea {
 				font-size: 1em;
 			} 
 			footer ul{
-				margin-top: -100px;
+				margin-top: -70px;
 				display: flex;
 				flex-direction: column;
 			}
