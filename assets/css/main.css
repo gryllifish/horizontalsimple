@@ -1045,6 +1045,9 @@ input, select, textarea {
 			#footer li{
 				padding: 0.4em;
 			}
+			#footer span{
+				font-size: 1.1em;
+			}
 		}
 
 		
