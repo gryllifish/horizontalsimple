@@ -1042,8 +1042,11 @@ input, select, textarea {
 				display: flex;
 				flex-direction: column;
 			}
+			#footer{
+				margin-bottom: -18px;
+			}
 			#footer li{
-				padding: 0.4em;
+				padding: 0.25em;
 			}
 			#footer span{
 				font-size: 1.1em;
