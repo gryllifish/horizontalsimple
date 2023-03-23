@@ -1021,7 +1021,8 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.1em;
+			font-size: 1.2em;
+			color:#fff;
 		}
 
 		#header nav {
