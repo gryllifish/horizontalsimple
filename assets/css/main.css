@@ -380,7 +380,7 @@ input, select, textarea {
 		left: 0;
 		position: fixed;
 		text-align: center;
-		top: 7%;
+		top: 2%;
 		width: 100%;
 	}
 
@@ -731,7 +731,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		bottom: 0;
 		cursor: default;
-		height: 6em;
+		height: 4em;
 		left: 0;
 		line-height: 1em;
 		position: absolute;
@@ -1021,7 +1021,7 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1em;
+			font-size: 1.1em;
 		}
 
 		#header nav {
@@ -1034,7 +1034,18 @@ input, select, textarea {
 
 			#header nav a:active {
 				font-size: 1em;
-			} }
+			} 
+			footer ul{
+				margin-top: -100px;
+				display: flex;
+				flex-direction: column;
+			}
+			#footer li{
+				padding: 0.4em;
+			}
+		}
+
+		
 
 /* Mobile (Portrait) */
 
@@ -1211,4 +1222,24 @@ input, select, textarea {
 		.bimza:hover{
 			background-color: rgba(255, 255, 255, 0.175);
 			transition: 300ms;
+		}
+		footer span:hover{
+			text-decoration: underline;
+			text-decoration-color: #bbbaba;
+			text-underline-offset: 0.2em;
+		
+		}
+		footer .label{
+			margin: 0 10px;
+			font-family: "lowvetica";
+			font-weight: 200;
+			font-size: 1.2rem;
+			
+		}
+		footer .labelNumber{
+			font-family: "lowvetica";
+			font-size: 1.6rem;
+		}
+		footer .labelNumber:hover{
+			text-decoration: none;
 		}
