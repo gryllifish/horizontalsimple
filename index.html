@@ -45,15 +45,26 @@
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			window.onorientationchxange = function() { document.body.scrollTop = 0; }
 
 			// Inicializa el contador en un número aleatorio entre 1 y 3
 			document.body.style.counterReset = "my-counter " + Math.floor(Math.random() * 3 + 1);
 
-			const bgImages = ["fondo.jpg", "testFondo2.jpg", "testFondo3.jpg", "testFondo4.jpg", "testFondo5.jpg"];
-			const randomIndex = Math.floor(Math.random() * bgImages.length);
+			const bgImages = ["fondo.jpg", "testFondo2.jpg", "testFondo4.jpg", "testFondo5.jpg"];
+			let lastImageIndex;
+
+			function getRandomImage() {
+			let randomIndex = Math.floor(Math.random() * bgImages.length);
+			while (randomIndex === lastImageIndex) {
+				randomIndex = Math.floor(Math.random() * bgImages.length);
+			}
+			lastImageIndex = randomIndex;
+			return `url('images/${bgImages[randomIndex]}')`;
+			}
+
 			const bgElement = document.getElementById("bg");
-			bgElement.style.backgroundImage = `url('images/${bgImages[randomIndex]}')`;
+			bgElement.style.backgroundImage = getRandomImage();
+
 
 
 		</script>
