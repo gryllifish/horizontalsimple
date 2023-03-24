@@ -1156,7 +1156,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (max-height: 600px) {
 
 		#header .mobileP{
-			display: inline-block;
+			display: block;
 		}
 		#header p{
 			display: none;
